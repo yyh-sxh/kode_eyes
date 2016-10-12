@@ -1,0 +1,97 @@
+/******************头部*********************/
+.tong{
+	display: block;
+	width: 1190px;
+	height: 95px;
+	margin: 0 auto;
+}
+body,html{
+	background: white;
+}
+.top{
+	width: 1190px;
+	height: 110px;
+	margin: 0 auto;
+}
+.top .kede_logo{
+	margin-top: 45px;
+}
+.top .ind_top_bq{
+	margin-left: 300px;
+}
+.top .text{
+	position: relative;
+	left: 100px;
+	top: -40px;
+	height: 30px;
+	line-height: 30px;
+	width: 200px;
+	border: 1px solid rgb(144,195,31);
+}
+.top .search{
+	position: relative;
+	left: 90px;
+	top: -38px;
+	height: 32px;
+	border: none;
+	background: rgb(144,195,31);
+	width: 108px;
+	color: white;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}
+
+/***************导航栏*******************/
+.nav_top{
+	background: rgb(144,195,31);
+	height: 35px;
+	width: 100%;
+}
+.nav_top ul{
+	margin-left: 53px;
+	
+}
+.nav_top ul li{
+	float: left;
+	line-height: 35px;
+	padding: 0 30px;
+	color: white;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}
+.nav_top ul li:first-child{
+	background: green;
+	width: 139px;
+	text-align: center;
+}
+.nav_top ul li:hover{
+	background: green;
+}
+/**********************列表**********************/
+.shop_list{
+	width: 1190px;
+	margin:0 auto;
+	overflow: hidden;
+	border-bottom: 1px solid gainsboro;
+	
+}
+.shop_list span{
+	float: left;
+	font-family: "微软雅黑";
+	width: 290px;
+	height: 250px;
+	margin-left: 5px;
+}
+.shop_list span img{
+	margin-left: 30px;
+	cursor: pointer;
+}
+.shop_list span p{
+	margin-left: 30px;
+	font-size: 14px;
+}
+.shop_list span #shuoming:hover{
+	color: orangered;
+	cursor: pointer;
+}

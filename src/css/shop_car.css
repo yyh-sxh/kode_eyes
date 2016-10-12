@@ -1,0 +1,153 @@
+/******************头部*********************/
+body,html{
+	background: white;
+}
+
+.top .kede_logo{
+	margin-top: 48px;
+	margin-left: 133px;
+}
+.top span{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	position: relative;
+	top: -15px;
+}
+/*****************购物栏**********************/
+#shop{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#shop .shop_nav{
+	width: 1000px;
+	height: 40px;
+	border: solid 1px grey;
+}
+#shop .shop_nav li{
+	float: left;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 40px;
+}
+#shop .shop_nav .one{
+	width: 450px;
+}
+#shop .shop_nav .tow{
+	width: 200px;
+}
+#shop .shop_nav .three{
+	width: 250px
+}
+#shop .shop_banner{
+	width: 1000px;
+	border: 1px solid grey;
+	border-top: none;
+	padding-bottom: 30px;
+}
+#shop .shop_banner li{
+	margin: 0 auto;
+	height: 80px;
+	width: 900px;
+	line-height: 80px;
+	font-family: "微软雅黑";
+	border-bottom:1px dashed gainsboro ;
+}
+#shop .shop_banner span{
+	float: left;
+	height: 80px;
+	text-align: center;
+}
+#shop .shop_banner .imgpic{
+	width: 66px;
+}
+#shop .shop_banner .shop_name{
+	width: 330px;
+}
+#shop .shop_banner .num{
+	width: 220px;	
+}
+#shop .shop_banner .shop_price{
+	width: 220px;
+}
+
+#shop .not_shop{
+	width: 1000px;
+	height: 150px;
+	position: relative;
+	border: 1px solid gainsboro;
+}
+#shop .not_shop p{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	position: relative;
+	top: 60px;
+}
+#shop .not_shop a{
+	margin-left: 350px;
+	position: relative;
+	top: 60px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: green;
+}
+#shop .not_shop .shop_bg{
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 40px;
+	top: 60px;
+	left: 300px;
+	background: url(../img/tubiao.png) no-repeat -340px -355px;
+}
+
+/***********************继续购物链接*********************/
+.back_index{
+	width: 1000px;
+	height: 50px;
+	border-bottom: 2px gray solid;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.back_index a{
+	margin-left: 50px;
+	font-family: "微软雅黑";
+	color: gray;
+}
+/************************结算*************************/
+.balance{
+	width: 1000px;
+	margin: 0 auto;
+	height: 150px;
+	position: relative;
+}
+.balance input{
+	border: none;
+	background: orangered;
+	color: white;
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	position: absolute;
+	top: 60px;
+	right: 0px;
+}
+.balance p{
+	position: absolute;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	right: 300px;
+	top: 80px;
+}
+._price{
+	font-family: "微软雅黑";
+	position: absolute;
+	top: 77px;
+	right: 210px;
+	width: 90px;
+	color: orangered;
+	font-size: 18px;
+}

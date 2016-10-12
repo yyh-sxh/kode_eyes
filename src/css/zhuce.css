@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+.logo{
+	width: 100%;
+	height: 200px;
+	font-family: "微软雅黑";
+}
+.logo img{
+	margin-top: 75px;
+	margin-left: 200px;
+}
+.logo p{
+	position: absolute;
+	left: 415px;
+	top: 135px;
+	font-size: 18px;
+}
+.logo span{
+	position: absolute;
+	top:200px ;
+	right: 210px;
+	font-size: 12px;
+}
+.logo .a1{
+	position: absolute;
+	top:200px ;
+	right: 150px;
+	font-size: 12px;
+	color: green;
+}
+.cont{
+	width: 1000px;
+	margin: 0 auto;
+	height: 400px;
+	position: relative;
+	background: white;
+	border: 1px solid rgb(200,200,200);
+}
+.cont img{
+	position: absolute;
+	left: 500px;
+	top: 50px;
+	border-left:solid 1px rgb(210,210,210);
+}
+.cont form{
+	width: 500px;
+}
+.cont label{
+    margin-left: 50px;
+}
+.cont #name{
+	width: 250px;
+	height: 30px;
+	border: 1px solid green;
+	margin-top: 30px;
+	margin-left:15px ;
+}
+.cont #pwd{
+	width: 250px;
+	height: 30px;
+	border: 1px solid green;
+	margin-top: 20px;
+}
+.cont #Npwd{
+	width: 250px;
+	height: 30px;
+	border: 1px solid green;
+	margin-top: 20px;
+}
+.cont #yanzhengk,.cont #yanzhengm{
+	margin-left: 15px;
+	width: 110px;
+	height: 30px;
+	border: 1px solid green;
+	margin-top: 20px;
+}
+.cont #btn{
+	border: none;
+	background: orange;
+	margin-top: 30px;
+	margin-left: 140px;
+	width: 250px;
+	height: 50px;
+	font-size: 16px;
+	color: white;
+}
+.cont p{
+	display: block;
+	height: 18px;
+	font-size: 12px;
+	margin-left: 140px;
+	line-height: 18px;
+	color: red;
+}

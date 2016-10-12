@@ -1,0 +1,361 @@
+/******************头部*********************/
+.tong{
+	display: block;
+	width: 1190px;
+	height: 95px;
+	margin: 0 auto;
+}
+body,html{
+	background: white;
+}
+.top{
+	width: 1190px;
+	height: 110px;
+	margin: 0 auto;
+}
+.top .kede_logo{
+	margin-top: 45px;
+}
+.top .ind_top_bq{
+	margin-left: 300px;
+}
+.top .text{
+	position: relative;
+	left: 100px;
+	top: -40px;
+	height: 30px;
+	line-height: 30px;
+	width: 200px;
+	border: 1px solid rgb(144,195,31);
+}
+.top .search{
+	position: relative;
+	left: 90px;
+	top: -38px;
+	height: 32px;
+	border: none;
+	background: rgb(144,195,31);
+	width: 108px;
+	color: white;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}
+
+/***************导航栏*******************/
+.nav_top{
+	background: rgb(144,195,31);
+	height: 35px;
+	width: 100%;
+}
+.nav_top ul{
+	margin-left: 53px;
+	
+}
+.nav_top ul li{
+	float: left;
+	line-height: 35px;
+	padding: 0 30px;
+	color: white;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}
+.nav_top ul li:first-child{
+	background: green;
+	width: 139px;
+	text-align: center;
+}
+.nav_top ul li:hover{
+	background: green;
+}
+.nav_top ul li a{
+	color: white;
+}
+
+/*****************轮播图片****************/
+.content{
+	position: relative;
+	height: 320px;
+}
+
+#Img{
+	width: 760px;
+	height: 320px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+#img ul{
+	position: relative;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+#Img li{
+	overflow:hidden;
+	position:absolute;top:0;left:0;
+}
+#Img li img{
+	display: block;
+}
+
+/**************轮播图页码******************/
+#Img .page{
+	position:absolute;
+	left: 300px;
+	bottom:0px;
+	padding:10px;
+}
+#Img .page span{
+	display:inline-block;
+	margin:0 5px;
+	width:18px;
+	height:18px;
+	line-height:18px;
+	background-color:#efefef;
+	text-align:center;
+	border-radius:50%;
+	box-shadow:0 0 10px #000;
+}
+#Img .page span.active{
+	background-color:green;
+	color:white;
+}
+
+/*****************轮播图上下页按钮**********************/
+#Img .next,#Img .previous{
+	position:absolute;
+	left:10px;
+	top:50%;
+	margin-top:-25px;
+	width:30px;height:50px;
+	line-height:50px;
+	text-align:center;
+	background-color:#efefef;
+	opacity:0.5;
+}
+#Img .next{
+	left:auto;
+	right:10px;
+}
+#Img .next:hover,#Img .previous:hover{
+	opacity:0.8;
+}
+
+/***************菜单栏***************/
+.caidan{
+	float: left;
+	height:320px;
+	width:199px;
+	margin-left: 53px;
+	position: relative;
+}
+.caidan li{
+	height: 45px;
+    border-bottom: dashed 1px gainsboro;
+    line-height: 45px;
+    font-family: "微软雅黑";
+    padding-left: 60px;
+    color: gray;
+    cursor: pointer;
+    font-size: 12px;
+}
+.caidan li:last-child{
+	border-bottom: none;
+}
+.caidan li span{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	margin-top: 7px;
+	left: 25px;
+}
+.caidan .caidan_li1 span{
+	background:url(../img/tubiao.png) no-repeat 0px -414px;
+}
+.caidan .caidan_li2 span{
+	background:url(../img/tubiao.png) no-repeat 0px -452px;
+}
+.caidan .caidan_li3 span{
+	background:url(../img/tubiao.png) no-repeat 0px -495px;
+}
+.caidan .caidan_li4 span{
+	background:url(../img/tubiao.png) no-repeat 0px -530px;
+}
+.caidan .caidan_li5 span{
+	background:url(../img/tubiao.png) no-repeat 0px -570px;
+}
+.caidan .caidan_li6 span{
+	background:url(../img/tubiao.png) no-repeat 0px -605px;
+}
+.caidan .caidan_li7 span{
+	background:url(../img/tubiao.png) no-repeat 0px -643px;
+}
+
+#Img_right{
+	float: left;
+	width: 218px;
+	height: 320px;
+}
+/******************菜单内容********************/
+.list1{
+	width: 760px;
+	height: 320px;
+	position: absolute;
+	left: 252px;
+	background: white;
+	font-family: "微软雅黑";
+	display: none;
+}
+.list1 .list1-left{
+	width: 523px;
+	float: left;
+	height: 290px;
+	border-right: 1px solid gainsboro;
+	margin-top: 10px;
+}
+.list1 .list1-left li{
+	padding: 10px 0px;
+	width: 410px;
+	margin-left: 95px;
+	border-bottom: dashed 1px gainsboro;
+}
+.list1 .list1-left li a{
+	padding-left: 5px;
+	font-size: 12px;
+	color: gray;
+	border-left: 1px solid gray;
+}
+.list1 .list1-left li a:hover{
+	color: orangered;
+}
+.list1 .list1-left span{
+	position: absolute;
+	right:680px ;
+	margin-top: 10px;
+}
+.list1 .list1-right{
+	float: left;
+	width: 200px;
+}
+.list1 .list1-right img{
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+/********************推荐商品************************/
+.shop-hot{
+	margin: 0 auto;
+	width: 1190px;
+	height: 140px;
+}
+.shop-hot .table{
+	float: left;
+	width: 215px;
+	height: 140px;
+	background: rgb(243,243,243);
+}
+.shop-hot .table h5{
+	color: gray;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+.shop-hot .table table td{
+	width: 57px;
+	height: 25px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	text-align: center;
+    line-height: 25px;
+    color: gray;
+    background: white;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+.shop-hot .table table td:hover{
+	background: forestgreen;
+	color: white
+}
+
+.shop-hot .shop-hot_img{
+	float: left;
+	width: 755px;
+	height: 140px;
+	padding-left: 5px;
+}
+.shop-hot .shop-hot_img img{
+	margin-top: 5px;
+	float: left;
+	margin-left: 3px;
+}
+.shop-hot .shop-hot_new{
+	width: 213px;
+	height: 140px;
+	float: left;
+	font-family: "微软雅黑";
+	border: 1px solid gainsboro;
+}
+.shop-hot .shop-hot_new .new_nav{
+	width: 213px;
+	height: 30px;
+	border-bottom: 1px solid gainsboro;
+}
+.shop-hot .shop-hot_new .new_nav li{
+	float: left;
+	width: 106px;
+	color: grey;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.shop-hot .shop-hot_new .new_nav li:hover{
+	color: orangered;
+}
+
+.shop-hot .shop-hot_new .shop_ative{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.shop-hot .shop-hot_new .shop_ative li{
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	cursor: pointer;
+	color: grey;
+}
+.shop-hot .shop-hot_new .shop_ative li:hover{
+	color: orangered;
+}
+/******************内容***********************/
+#banner{
+	width: 1190px;
+	margin:0 auto;
+	overflow: hidden;
+	border-bottom: 1px solid gainsboro;
+	
+}
+#banner span{
+	float: left;
+	font-family: "微软雅黑";
+	width: 290px;
+	height: 250px;
+	margin-left: 5px;
+}
+#banner span img{
+	margin-left: 30px;
+	cursor: pointer;
+}
+#banner span p{
+	margin-left: 30px;
+	font-size: 14px;
+}
+#banner span #shuoming:hover{
+	color: orangered;
+	cursor: pointer;
+}
+#banner h3{
+	margin-top: 20px;
+	margin-left: 20px;
+	color: cornflowerblue;
+}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.logo{
+	width: 100%;
+	height: 200px;
+	font-family: "微软雅黑";
+}
+.logo img{
+	margin-top: 75px;
+	margin-left: 200px;
+}
+.logo p{
+	position: absolute;
+	left: 415px;
+	top: 135px;
+	font-size: 18px;
+}
+.logo span{
+	position: absolute;
+	top:200px ;
+	right: 210px;
+	font-size: 12px;
+}
+.logo .a1{
+	position: absolute;
+	top:200px ;
+	right: 150px;
+	font-size: 12px;
+	color: green;
+}
+.cont{
+	width: 1000px;
+	margin: 0 auto;
+	height: 400px;
+	position: relative;
+	background: white;
+	border: 1px solid rgb(200,200,200);
+}
+.cont img{
+	margin-top: 50px;
+	border-right:solid 1px rgb(210,210,210);
+}
+.cont .cont-left{
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	left: 500px;
+	top: 50px;
+}
+.cont .cont-left #name{
+	width: 300px;
+	height: 25px;
+	margin: 0 100px;
+}
+.cont .cont-left #pwd{
+	width: 300px;
+	height: 25px;
+	margin: 30px 100px;
+}
+.cont .cont-left .btn{
+	width: 300px;
+	height: 30px;
+	margin: 10px 100px;
+	border: none;
+	color: white;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	background: orangered;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.cont .cont-left span{
+	margin-top: 30px;
+	margin-left: 100px;
+	font-size: 12px;
+}
+.cont .cont-left span a{
+	color: green;
+	margin-left: 100px;
+}
+.cont .cont-left p{
+	margin-left: 100px;
+	font-size: 12px;
+}
+.cont .cont-left ul{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.cont .cont-left li{
+	float: left;
+	width: 35px;
+	height: 35px;
+	margin-right: 20px;
+	border-radius:50%;
+}
+.cont .cont-left ul .Li1{
+	background:rgb(200,200,200) url(../img/allbgs.png) no-repeat 1px -72px;
+}
+.cont .cont-left ul .Li1:hover{
+	cursor: pointer;
+	background:orangered url(../img/allbgs.png) no-repeat 1px -105px;
+}
+.cont .cont-left ul .Li2{
+	background:rgb(200,200,200) url(../img/allbgs.png) no-repeat -38px -72px;
+}
+.cont .cont-left ul .Li2:hover{
+	cursor: pointer;
+	background:orangered url(../img/allbgs.png) no-repeat -38px -105px;
+}
+.cont .cont-left ul .Li3{
+	background:rgb(200,200,200) url(../img/allbgs.png) no-repeat -79px -72px;
+}
+.cont .cont-left ul .Li3:hover{
+	cursor: pointer;
+	background:orangered url(../img/allbgs.png) no-repeat -79px -105px;
+}

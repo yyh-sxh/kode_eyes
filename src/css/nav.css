@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/**********通用样式*************/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+img{
+	border: none;
+}
+body,html{
+	width: 1263px;
+	background: rgb(240,240,240);
+}
+a{
+	text-decoration: none;
+}
+
+/*************最顶部导航栏****************/
+.nav{
+	background: rgb(240,240,240);
+	height: 30px;
+	width: 100%;
+	border-bottom: 1px solid silver;
+	font-family: "微软雅黑";
+}
+.nav .left{
+	float: left;
+	margin-left: 30px;
+}
+.nav .left li{
+	float: left;
+	font-size: 14px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 30px;
+}
+.nav .right{
+	float: right;
+	margin-right: 30px;
+}
+.nav .right li{
+	float: left;
+	font-size: 14px;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+.nav .right li:last-child a{
+	color: orangered;
+}
+.nav a:hover{
+	color: orangered;
+}
+.nav a{
+	color: rgb(103,103,103);
+}
+
+/*****************尾部*******************/
+.foot{
+	width: 100%;
+	height: 200px;
+}
+.foot span{
+	display: block;
+	padding-top:30px; 
+	width: 490px;
+	margin: 0 auto;
+}
+.foot span a{
+	font-size: 14px;
+	padding-right: 10px;
+	border-right: 1px solid silver;
+	color: silver;
+}
+.foot span a:last-child{
+	border: none;
+}
+.foot p{
+	text-align: center;
+	margin-top: 10px;
+	color: silver;
+}
+.foot img{
+	text-align: center;
+	margin:20px 280px;
+}
+
+
